@@ -10,6 +10,11 @@
       imageUrl: "https://github.com/cccareers.png",
     },
     {
+      name: "Sive.Host",
+      url: "https://sive.host",
+      imageUrl: "https://sive.host/logo9x.png",
+    },
+    {
       name: "Crypto Jobs List",
       url: "https://cryptojobslist.com/?utm_source=coolify.io",
       imageUrl: "https://github.com/cryptojobslist.png",

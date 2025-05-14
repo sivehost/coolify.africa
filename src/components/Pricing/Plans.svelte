@@ -19,7 +19,7 @@
   </div>
   <div class="flex justify-center py-10">
     <a
-      href="https://app.coolify.io/register"
+      href="https://app.coolify.africa/register"
       class="text-base font-bold rounded p-4 px-10 text-white bg-coolgray-300 hover:bg-coolgray-400 flex gap-2"
       ><svg class="icon" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
         <path
@@ -122,8 +122,8 @@
           <div>
             You need to bring your own servers from any cloud provider (such as <a
               class="underline"
-              href="https://coolify.io/hetzner"
-              target="_blank">Hetzner</a
+              href="https://sive.host/vps"
+              target="_blank">Sive.Host</a
             >, DigitalOcean, AWS, etc.)
           </div>
           <div>
@@ -270,7 +270,7 @@
 
           Do you require official support for your self-hosted instance?<a
             class="underline"
-            href="https://coolify.io/docs/contact">Contact Us</a
+            href="https://sive.host/cart.php">Contact Us</a
           >
         </li>
       </ul>

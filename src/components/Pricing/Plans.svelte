@@ -71,10 +71,10 @@
       </fieldset>
     </div>
   </div>
-  <!--<div class=" pt-10 pb-2 text-center">
-    <span class="font-bold text-warning">Trial period</span> included on all plans,
-    without credit card details.
-  </div> -->
+  <div class=" pt-10 pb-2 text-center">
+    <span class="font-bold text-warning">Free on Sive.Host</span> included on all VPS plans,
+    without credit card details. <a href="https://app.coolify.africa">Click here to get started</a>.
+  </div>
 
   <div class="flex text-left justify-center">
     <div class="p-8">

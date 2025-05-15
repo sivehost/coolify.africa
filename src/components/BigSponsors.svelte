@@ -27,7 +27,7 @@
             name: "Sive.Host",
             url: "https://sive.host",
             description: "Server, cloud, hosting, and data center solutions",
-            imageKey: "logo9x.png",
+            imageKey: "SiveHost.png",
             width: 180,
             height: 180,
         },

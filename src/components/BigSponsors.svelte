@@ -28,8 +28,8 @@
             url: "https://sive.host",
             description: "Server, cloud, hosting, and data center solutions",
             imageKey: "SiveHost.png",
-            width: 180,
-            height: 180,
+            width: 240,
+            height: 240,
         },
         {
             name: "Hetzner",

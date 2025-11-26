@@ -1,20 +1,33 @@
-FROM oven/bun:latest AS builder
+##############################################
+# BUILD STAGE
+##############################################
 
+FROM oven/bun:latest AS builder
 WORKDIR /app
-COPY package*.json bun.lock ./
+
+# Install dependencies
+COPY package.json bun.lockb* bun.lock* ./
 RUN bun install
 
+# Build the Astro site
 COPY . .
 RUN bun run build
 
-FROM nginx:latest
 
-RUN apt-get update
-RUN apt-get install -y curl
-RUN rm -rf /var/lib/apt/lists/*
+##############################################
+# RUNTIME STAGE (NGINX)
+##############################################
 
-COPY --from=builder /app/dist /usr/share/nginx/html
+FROM nginx:alpine
+
+# Replace default nginx config
 COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Copy built files
+COPY --from=builder /app/dist /usr/share/nginx/html
+
+# Fix permissions
+RUN chown -R nginx:nginx /usr/share/nginx/html
 
 EXPOSE 80
 
